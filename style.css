@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto";
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* header */
+#header {
+  margin: 14px 0;
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-top: 20px;
+  h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(31, 46, 53, 0.8);
+    span {
+      color: rgba(31, 46, 53, 0.8);
+      transform: translateY(-55px);
+    }
+  }
+}
+.header-icon {
+  padding-top: 10px;
+  ion-icon {
+    padding: 0 10px;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+  }
+}
+/* header */
+
+/* making */
+#making {
+  margin-top: 140px;
+}
+.making {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.making-text {
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64.17px;
+    color: black;
+    span {
+      color: red;
+      font-size: 48px;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.94px;
+    color: rgba(48, 68, 78, 1);
+    padding: 30px 0;
+  }
+  button {
+    width: 140px;
+    height: 45px;
+    background: rgba(238, 66, 72, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+}
+/* making */
+
+/* samsara */
+#samsara {
+  margin: 130px 0;
+}
+.samsara {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.samsara-text {
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42.78px;
+    color: black;
+    padding-bottom: 30px;
+    span {
+      color: red;
+      font-size: 32px;
+    }
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(48, 68, 78, 1);
+  }
+}
+/* samsara */
+
+/* our */
+#our {
+  margin: 40px 0;
+}
+.our {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our-blok {
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(238, 66, 72, 1);
+    padding: 20px 0;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(48, 68, 78, 1);
+    padding-bottom: 20px;
+  }
+  button {
+    width: 140px;
+    height: 40px;
+    background: rgba(238, 66, 72, 1);
+    border: none;
+    border-radius: 5px;
+  }
+}
+.our-h2 {
+  color: rgba(31, 46, 53, 1);
+  font-size: 30px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+/* our */
+
+/* contact */
+#contact {
+  margin-top: 180px;
+}
+.contact {
+  display: flex;
+  gap: 130px;
+}
+.contact-text {
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(38, 50, 56, 1);
+    padding: 10px 0;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26.85px;
+    color: rgba(38, 50, 56, 1);
+  }
+}
+.contact-text2 {
+  h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    color: black;
+    padding-bottom: 30px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26.85px;
+    color: rgba(38, 50, 56, 1);
+  }
+}
+/* contact */
+
+/* footer */
+#footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 65px;
+  background: rgba(238, 66, 72, 1);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    span {
+      font-size: 18px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}
+/* footer */
+
+/* media */
+@media (max-width: 1000px) {
+  .header-text {
+    h1 {
+      font-size: 10px;
+    }
+  }
+
+  .header-icon {
+    ion-icon {
+      font-size: 13px;
+    }
+  }
+  .making-text {
+    h1 {
+      font-size: 40px;
+      line-height: 54.17px;
+      span {
+        color: red;
+        font-size: 40px;
+      }
+    }
+  }
+  .samsara-text {
+    p {
+      font-size: 13px;
+      line-height: 20px;
+    }
+  }
+  .samsara-text {
+    h1 {
+      font-size: 26px;
+      line-height: 35.78px;
+    }
+  }
+  .our-blok {
+    p {
+      font-size: 11px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-text {
+    gap: 39px;
+  }
+  .contact-text {
+    h1 {
+      font-size: 14px;
+    }
+  }
+  .contact-text {
+    p {
+      font-size: 14px;
+      line-height: 23.85px;
+    }
+  }
+  .contact-text2 {
+    h1 {
+      font-size: 22px;
+      line-height: 29.13px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+@media (max-width: 800px) {
+  .header-text {
+    gap: 27px;
+  }
+  .making-text {
+    h1 {
+      font-size: 34px;
+      line-height: 48.17px;
+      span {
+        font-size: 34px;
+      }
+    }
+  }
+  .making-text {
+    p {
+      font-size: 17px;
+      line-height: 26.94px;
+      padding: 16px 0;
+    }
+  }
+  #our {
+    margin: 20px 0;
+  }
+
+  .footer {
+    h1 {
+      font-size: 14px;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .header-text {
+    gap: 16px;
+  }
+  .header-icon {
+    ion-icon {
+      padding: 0px 5px;
+    }
+  }
+  .making-text {
+    h1 {
+      font-size: 31px;
+      line-height: 42.17px;
+      span {
+        font-size: 31px;
+        line-height: 42.17px;
+      }
+    }
+  }
+  .making-text {
+    p {
+      font-size: 14px;
+      line-height: 21.94px;
+    }
+  }
+  .samsara-text {
+    p {
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+  .samsara-text {
+    & h1 {
+      span {
+        font-size: 26px;
+      }
+    }
+  }
+  .our-h2 {
+    font-size: 26px;
+    padding-bottom: 51px;
+  }
+  .our-blok {
+    p {
+      font-size: 8px;
+      line-height: 18px;
+      padding-bottom: 16px;
+    }
+  }
+  .our-blok {
+    h1 {
+      font-size: 24px;
+      padding: 17px 0;
+    }
+  }
+  .contact-text2 {
+    p {
+      font-size: 13px;
+      line-height: 22.85px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header-text {
+    h1 {
+      font-size: 7px;
+    }
+  }
+  .header-icon {
+    display: flex;
+    ion-icon {
+      font-size: 11px;
+    }
+  }
+  .making-text {
+    h1 {
+      font-size: 23px;
+      line-height: 36.17px;
+      span {
+        font-size: 23px;
+        line-height: 36.17px;
+      }
+    }
+  }
+  .making-text {
+    p {
+      font-size: 10px;
+      line-height: 16.94px;
+      padding: 10px 0;
+    }
+  }
+  .making-text {
+    button {
+      width: 120px;
+      height: 33px;
+    }
+  }
+  .samsara-text {
+    h1 {
+      font-size: 21px;
+      line-height: 28.78px;
+      padding-bottom: 7px;
+    }
+    span {
+      font-size: 21px;
+    }
+  }
+  .our-blok {
+    button {
+      width: 120px;
+      height: 35px;
+    }
+  }
+  .contact-text {
+    h1 {
+      font-size: 12px;
+      padding: 7px 0;
+    }
+  }
+  .contact-text2 {
+    p {
+      font-size: 12px;
+      line-height: 18.85px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .header-text {
+    h1 {
+      font-size: 5px;
+    }
+  }
+  .our {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  .contact-text {
+    p {
+      font-size: 8px;
+      line-height: 15.85px;
+    }
+  }
+  .contact-text {
+    h1 {
+      font-size: 8px;
+    }
+  }
+  .contact-text2 {
+    p {
+      font-size: 10px;
+      line-height: 15.85px;
+    }
+  }
+  .making {
+    flex-direction: column-reverse;
+  }
+  .making-text {
+    h1 {
+      padding-top: 40px;
+    }
+  }
+  .samsara {
+    flex-direction: column;
+  }
+  .samsara-text {
+    h1 {
+      padding-top: 40px;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .header-text {
+    flex-wrap: wrap;
+    margin: 0 30px;
+  }
+  .header-icon {
+    display: flex;
+  }
+  .contact-text2 {
+    p {
+      font-size: 7px;
+      line-height: 13.85px;
+    }
+  }
+  .contact-text2 {
+    h1 {
+      font-size: 20px;
+      line-height: 26.13px;
+    }
+  }
+  .footer {
+    h1 {
+      font-size: 10px;
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+  .our-blok {
+    padding-bottom: 40px;
+  }
+  .samsara-text {
+    h1 {
+      span {
+        font-size: 21px;
+      }
+    }
+    span {
+      font-size: 17px;
+    }
+  }
+  .our-h2 {
+    font-size: 21px;
+    padding-bottom: 5px;
+  }
+}
+
+  
+/* media */
